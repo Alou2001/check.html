@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -11,25 +12,25 @@
             <h1>ALASSANE DIOP </h1>
             <ul>
                 <li>
-                    <a href="home.html">Home</a>
+                    <a href="home.html" class="open1">Home</a>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="about.html" class="open2">About</a>
                 </li>
                 <li>
-                    <a href="work.html">Work</a>
+                    <a href="work.html" class="open3">Work</a>
                 </li>
                 <li>
-                    <a href="resume">Resume</a>
+                    <a href="resume" class="open4">Resume</a>
                 </li>
                 <li>
-                    <a href="contact">Contact</a>
+                    <a href="contact" class="open5">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
     <section>
-        <h1>About</h1>
+        <h1 id="too">About</h1>
         <p>Alassane est une personne dynamique et engagée connue pour son esprit curieux et sa passion pour 
             l'apprentissage. Originaire de Dakar il a grandi dans un environnement riche en culture et en 
             histoire ce qui a nourri son interet pour les traditions et modes de vie. au fil des années
@@ -43,7 +44,7 @@
     </section>
     <br/>
     <section>
-        <h1>Work</h1> 
+        <h1 class="toi">Work</h1> 
         <p>Informatique c'est un domaine essentiel dans notre société moderne. 
             Elle englobe l'étude la conception le développement et l'application des systémes informatiques. 
             Cela inclut les logiciels les réseaux et les bases de données. L'informatique a révolutionné de 
@@ -57,7 +58,7 @@
     </section>
     <br/>
     <section>
-        <h1>Resume</h1>
+        <h1 id="sow">Resume</h1>
         <p>Gomycode est une platforme d'éducation qui se concentre sur
             l'enseignement des compétences en informatique et en développement. Fondée pour
             répondre à la demande croissante de professionnels qualifiés dans le domaine technologique
@@ -71,27 +72,27 @@
     </section>
 
     <!-- tableau -->
-     <h2>Tableau</h2>
+     <h2 class="et">Tableau</h2>
      <table>
         <tr>
-            <th>Home</th>
-            <th>Work</th>
-            <th>Resume</th>
+            <th class="au" scope="col">Home</th>
+            <th class="az" scope="col">Work</th>
+            <th class="aq" scope="col">Resume</th>
         </tr>
         <tr>
-            <td>Gomycode</td>
-            <td>Ingenieur</td>
-            <td>Tocard</td>
+            <th class="au" scope="row">Gomycode</th>
+            <td class="az">Ingenieur</td>
+            <td class="aq">Tocard</td>
         </tr>
         <tr>
-            <td>Gomycode</td>
-            <td>Infirmier</td>
-            <td>Tueur</td>
+            <th class="au" scope="row">Gomycode</th>
+            <td class="az">Infirmier</td>
+            <td class="aq">Tueur</td>
         </tr>
         <tr>
-            <td>Gomycode</td>
-            <td>Boulanger</td>
-            <td>Pain Thon</td>
+            <th class="au" scope="row">Gomycode</th>
+            <td class="az">Boulanger</td>
+            <td class="aq">Pain Thon</td>
         </tr>
      </table>
 

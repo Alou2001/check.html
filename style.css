@@ -1,0 +1,67 @@
+header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.open1{
+    color: green;
+}
+.open2{
+    color: yellow;
+}
+.open3{
+    color: red;
+}
+.open4{
+    color: blue;
+}
+.open5{
+    color: black;
+}
+#too{
+    text-decoration-line: underline;
+}
+.toi{
+    text-decoration-line: underline;
+    color: aqua;
+}
+#sow{
+    text-decoration-line: underline;
+    color: greenyellow;
+    font-style: oblique;
+}
+.et{
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+    color: blueviolet;
+}
+.au{
+    color: green;
+}
+.az{
+    color: yellow;
+}
+.aq{
+    color: red;
+}
+table{
+    border-collapse: collapse;
+    border: 5px solid rgb(200,200 , 200);
+    font-family: sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+} 
+caption{
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+thead,
+tfoot{
+    background-color: rgb(228, 240, 245)
+}
+th,
+td{
+    border: 1px solid rgb(160,160 , 160);
+    padding: 10px;
+}
